@@ -1,25 +1,7 @@
 
 
-var ha = ["Będą takie mrozy, że przymarznie cap do kozy",
 
-    "Biedny kupuje jedną kapotę, ale na całe życie",
-    "Bierz nogi za pas, póki jeszcze czas",
-    "Bogatemu to i byk się ocieli",
-
-    "Bo pić trzeba umieć",
-    "Brał i Napoleon czasem po tabinkach",
-    "Budować zamki na lodzie",
-    "Byłoby dłuższe lato, gdyby nie zima",
-    "Byś zupełnie był mądry, wiek ci nie wystarczy",
-
-    "Co jednemu swawola, to drugiemu niewola",
-    "Co komu pisane, to go nie minie",
-    "Co lato odkłada, to zima przejada",
-    "Co łysemu po grzebieniu!?",
-    "Co ma piernik do wiatraka?",
-    "Co nie siłą, to rozumem"];
-
-var hasl= 'ha[Math.floor((Math.random() * 14) + 1)]  )';
+var hasl= "NIE LUBIE PONIEDZIAŁKÓW"
 
 
 var d = '';
@@ -41,7 +23,7 @@ for (i = 0; i < hasl.length; i++) {
 }
 
 
-var litery = new Array(24);
+var litery = new Array(25);
 
 litery[0] = 'A';
 litery[1] = 'B';
@@ -55,19 +37,21 @@ litery[8] = 'I';
 litery[9] = 'J';
 litery[10] = 'K';
 litery[11] = 'L';
-litery[12] = 'M';
-litery[13] = 'N';
-litery[14] = 'O';
-litery[15] = 'P';
-litery[16] = 'R';
-litery[17] = 'S';
-litery[18] = 'T';
-litery[19] = 'U';
-litery[20] = 'V';
-litery[21] = 'W';
-litery[22] = 'X';
-litery[23] = 'Y';
-litery[24] = 'Z';
+litery[12] = 'Ł';
+litery[13] = 'M';
+litery[14] = 'N';
+litery[15] = 'O';
+litery[16] = 'Ó';
+litery[17] = 'P';
+litery[18] = 'R';
+litery[19] = 'S';
+litery[20] = 'T';
+litery[21] = 'U';
+litery[22] = 'V';
+litery[23] = 'W';
+litery[24] = 'X';
+litery[25] = 'Y';
+litery[26] = 'Z';
 
 
 function Buttons() {
